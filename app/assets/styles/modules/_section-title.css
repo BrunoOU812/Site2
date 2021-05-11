@@ -10,8 +10,13 @@
     display: block;
     margin: 0 auto 0.6rem auto;
     @mixin atSmall {
+      position: relative;
+      top: 8px;
       margin: 0 0.5rem 0 0;
       display: inline-block;
     }
+  }
+  &--blue {
+    color: $mainBlue;
   }
 }
